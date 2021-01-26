@@ -1,0 +1,16 @@
+{
+  "name": "lychatapp",
+  "version": "1.0.0",
+  "description": "A simple chat app",
+  "main": "index.js",
+  "scripts": {
+    "start-dev": "nodemon app & browser-sync start --proxy 'localhost:5050' --files 'index.html' 'public'",
+    "start": "node app"
+  },
+  "keywords": [],
+  "author": "Liam Yancy",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
