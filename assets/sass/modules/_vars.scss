@@ -1,17 +1,9 @@
-$main-bg-color: black;
 $main-text-color: white;
 
 $default-family: arial, helvetica, sans-serif;
 
 body {
-    background-color: $main-bg-color;
     color: $main-text-color;
     font-family: $default-family;
     font-size: 16px;
-}
-
-a { display: block;
-    color: white;
-    // text-decoration: none;
-    margin: 1rem 0;
 }
